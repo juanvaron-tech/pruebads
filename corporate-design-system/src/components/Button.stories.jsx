@@ -1,69 +1,31 @@
+import React from 'react';
 import Button from './Button';
 
 export default {
-  title: 'Components/Button',
+  title: 'Design System/Button', // Así se verá en el menú lateral de Storybook
   component: Button,
   argTypes: {
-    variant: {
-      control: { type: 'select' },
-      options: ['primary', 'secondary', 'danger'],
-    },
     size: {
       control: { type: 'select' },
-      options: ['small', 'medium', 'large'],
+      options: ['small', 'medium', 'big'],
     },
-    disabled: {
-      control: { type: 'boolean' },
-    },
-    onClick: { action: 'clicked' },
+    disabled: { control: 'boolean' },
   },
 };
 
-export const Primary = {
-  args: {
-    label: 'Primary Button',
-    variant: 'primary',
-    size: 'medium',
-  },
+// Historia base
+const Template = (args) => <Button {...args} />;
+
+export const Primary = Template.bind({});
+Primary.args = {
+  label: 'Comprar en Rappi',
+  size: 'medium',
+  disabled: false,
 };
 
-export const Secondary = {
-  args: {
-    label: 'Secondary Button',
-    variant: 'secondary',
-    size: 'medium',
-  },
-};
-
-export const Danger = {
-  args: {
-    label: 'Danger Button',
-    variant: 'danger',
-    size: 'medium',
-  },
-};
-
-export const Small = {
-  args: {
-    label: 'Small Button',
-    variant: 'primary',
-    size: 'small',
-  },
-};
-
-export const Large = {
-  args: {
-    label: 'Large Button',
-    variant: 'primary',
-    size: 'large',
-  },
-};
-
-export const Disabled = {
-  args: {
-    label: 'Disabled Button',
-    variant: 'primary',
-    size: 'medium',
-    disabled: true,
-  },
+export const Small = Template.bind({});
+Small.args = {
+  label: 'Ver más',
+  size: 'small',
+  disabled: false,
 };
