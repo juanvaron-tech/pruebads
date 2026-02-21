@@ -49,7 +49,7 @@ figma: node /Users/juan.varon/Documents/ds_prueba/mcp/figma-mcp.js - ✓ Connect
 ### Ejemplo CLI (prueba manual)
 
 ```bash
-export FIGMA_ACCESS_TOKEN="YOUR_FIGMA_TOKEN_HERE"
+export FIGMA_ACCESS_TOKEN="your_figma_token_here"
 node mcp/figma-mcp.js << 'EOF'
 {"id":1,"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"test","version":"1.0"}}}
 {"id":2,"method":"tools/list","params":{}}

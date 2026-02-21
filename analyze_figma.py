@@ -8,7 +8,9 @@ import subprocess
 import os
 
 os.chdir('/Users/juan.varon/Documents/ds_prueba')
-os.environ['FIGMA_ACCESS_TOKEN'] = 'YOUR_FIGMA_TOKEN_HERE'
+# Token should be set via environment variable
+if 'FIGMA_ACCESS_TOKEN' not in os.environ:
+    raise ValueError('FIGMA_ACCESS_TOKEN environment variable not set')
 
 # Request al MCP
 request = '{"id":2,"method":"tools/call","params":{"name":"figma_get_file","arguments":{"fileId":"G6gS8XGQEFxErCvDtGypFM"}}}'
