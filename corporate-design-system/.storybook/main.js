@@ -6,11 +6,8 @@ module.exports = {
     '@storybook/addon-essentials',
     '@storybook/addon-links',
   ],
-  framework: {
-    name: '@storybook/react',
-    options: {},
-  },
-  docs: {
-    autodocs: 'tag',
+  framework: '@storybook/react-webpack5',
+  core: {
+    builder: '@storybook/builder-webpack5',
   },
 };
