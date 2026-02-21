@@ -66,11 +66,25 @@ EOF
 
 ## Token de acceso
 
-Tu `FIGMA_ACCESS_TOKEN` está guardado en:
-- `.claude.json` (configuración de Claude Code)
-- Variable de entorno en el shell
+### Configuración segura del token
 
-⚠️ Mantén tu token seguro y no lo compartas públicamente.
+1. **Obtén un token** en https://www.figma.com/developers/api#access-tokens
+2. **Crea un archivo `.env`** con tu token (este archivo está en `.gitignore`):
+   ```
+   FIGMA_ACCESS_TOKEN=your_actual_token_here
+   ```
+3. **Carga el token en tu shell** antes de usar el MCP:
+   ```bash
+   export $(cat .env | xargs)
+   ```
+
+### Seguridad
+
+⚠️ **IMPORTANTE:**
+- Nunca hagas commit de tokens o valores sensibles
+- Usa variables de entorno para credenciales
+- El archivo `.env` está en `.gitignore` para tu protección
+- Los tokens expuestos pueden ser revocados en Figma
 
 ## Próximos pasos
 
