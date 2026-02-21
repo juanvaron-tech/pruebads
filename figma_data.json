@@ -1,0 +1,291 @@
+{
+  "fileId": "G6gS8XGQEFxErCvDtGypFM",
+  "name": "Pruebas DS",
+  "components": {
+    "6:69": {
+      "key": "99d9648c590274090464c18863c7d52a822ac71c",
+      "name": "Property 1=big",
+      "description": "",
+      "remote": false,
+      "componentSetId": "6:70",
+      "documentationLinks": []
+    },
+    "6:72": {
+      "key": "6be27c2e95359c1b9c39ea90914b249b69b9a362",
+      "name": "filled/filled_add",
+      "description": "",
+      "remote": true,
+      "documentationLinks": []
+    },
+    "6:68": {
+      "key": "70b9cc7e4d5052e3fa2a6dfb9bce07769b15db5e",
+      "name": "Property 1=medium",
+      "description": "",
+      "remote": false,
+      "componentSetId": "6:70",
+      "documentationLinks": []
+    },
+    "6:67": {
+      "key": "e11db20c95913f42011f908782203ffdaf8aab9d",
+      "name": "Property 1=small",
+      "description": "",
+      "remote": false,
+      "componentSetId": "6:70",
+      "documentationLinks": []
+    }
+  },
+  "styles": {
+    "6:45": {
+      "key": "50d8f22d7c67763b6238a4d4cb538b0e925d277f",
+      "name": "h4/h4Medium",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "6:59": {
+      "key": "b6e2ec8bcf03d39c3deb368ba4eb1d3ad0e93144",
+      "name": "headline/headlineMedium",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    },
+    "6:66": {
+      "key": "e903db6ee491ec0184bf8b786bc8c1b36c2a187f",
+      "name": "caption-1/caption1Medium",
+      "styleType": "TEXT",
+      "remote": true,
+      "description": ""
+    }
+  },
+  "nodes": [
+    {
+      "id": "I7:3;24:1146",
+      "name": "color",
+      "type": "VECTOR"
+    },
+    {
+      "id": "7:3",
+      "name": "Icon left",
+      "type": "INSTANCE",
+      "children": [
+        {
+          "id": "I7:3;24:1146",
+          "name": "color",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "id": "6:29",
+      "name": "Label",
+      "type": "TEXT"
+    },
+    {
+      "id": "I6:74;24:1146",
+      "name": "color",
+      "type": "VECTOR"
+    },
+    {
+      "id": "6:74",
+      "name": "Icon rigth",
+      "type": "INSTANCE",
+      "children": [
+        {
+          "id": "I6:74;24:1146",
+          "name": "color",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "id": "6:69",
+      "name": "Property 1=big",
+      "type": "COMPONENT",
+      "children": [
+        {
+          "id": "7:3",
+          "name": "Icon left",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "6:29",
+          "name": "Label",
+          "type": "TEXT"
+        },
+        {
+          "id": "6:74",
+          "name": "Icon rigth",
+          "type": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "id": "I7:8;24:1146",
+      "name": "color",
+      "type": "VECTOR"
+    },
+    {
+      "id": "7:8",
+      "name": "Icon left",
+      "type": "INSTANCE",
+      "children": [
+        {
+          "id": "I7:8;24:1146",
+          "name": "color",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "id": "6:53",
+      "name": "Label",
+      "type": "TEXT"
+    },
+    {
+      "id": "I7:5;24:1146",
+      "name": "color",
+      "type": "VECTOR"
+    },
+    {
+      "id": "7:5",
+      "name": "Icon rigth",
+      "type": "INSTANCE",
+      "children": [
+        {
+          "id": "I7:5;24:1146",
+          "name": "color",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "id": "6:68",
+      "name": "Property 1=medium",
+      "type": "COMPONENT",
+      "children": [
+        {
+          "id": "7:8",
+          "name": "Icon left",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "6:53",
+          "name": "Label",
+          "type": "TEXT"
+        },
+        {
+          "id": "7:5",
+          "name": "Icon rigth",
+          "type": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "id": "I7:13;24:1146",
+      "name": "color",
+      "type": "VECTOR"
+    },
+    {
+      "id": "7:13",
+      "name": "Icon left",
+      "type": "INSTANCE",
+      "children": [
+        {
+          "id": "I7:13;24:1146",
+          "name": "color",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "id": "6:55",
+      "name": "Label",
+      "type": "TEXT"
+    },
+    {
+      "id": "I7:10;24:1146",
+      "name": "color",
+      "type": "VECTOR"
+    },
+    {
+      "id": "7:10",
+      "name": "Icon rigth",
+      "type": "INSTANCE",
+      "children": [
+        {
+          "id": "I7:10;24:1146",
+          "name": "color",
+          "type": "VECTOR"
+        }
+      ]
+    },
+    {
+      "id": "6:67",
+      "name": "Property 1=small",
+      "type": "COMPONENT",
+      "children": [
+        {
+          "id": "7:13",
+          "name": "Icon left",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "6:55",
+          "name": "Label",
+          "type": "TEXT"
+        },
+        {
+          "id": "7:10",
+          "name": "Icon rigth",
+          "type": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "id": "6:70",
+      "name": "button",
+      "type": "COMPONENT_SET",
+      "children": [
+        {
+          "id": "6:69",
+          "name": "Property 1=big",
+          "type": "COMPONENT"
+        },
+        {
+          "id": "6:68",
+          "name": "Property 1=medium",
+          "type": "COMPONENT"
+        },
+        {
+          "id": "6:67",
+          "name": "Property 1=small",
+          "type": "COMPONENT"
+        }
+      ]
+    },
+    {
+      "id": "4:12",
+      "name": "Component",
+      "type": "CANVAS",
+      "children": [
+        {
+          "id": "6:70",
+          "name": "button",
+          "type": "COMPONENT_SET"
+        }
+      ]
+    },
+    {
+      "id": "0:0",
+      "name": "Document",
+      "type": "DOCUMENT",
+      "children": [
+        {
+          "id": "4:12",
+          "name": "Component",
+          "type": "CANVAS"
+        }
+      ]
+    }
+  ]
+}

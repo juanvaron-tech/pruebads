@@ -1,0 +1,28 @@
+{
+  "name": "corporate-design-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mcp:figma": "node ../mcp/figma-mcp.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@mui/material": "^7.3.8",
+    "@mui/styles": "^6.5.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "optionalDependencies": {
+    "@modelcontextprotocol/sdk": "npm:null@^0.1.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
+  }
+}
